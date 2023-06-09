@@ -1,0 +1,35 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+head{
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
+}
+.wrapper{
+    width:82%;
+    margin: 0 auto;
+}
+body {
+    background-color: #44653d;
+}
+
+h1 {
+    color: #8bd876;
+}
+.concert_start {
+    background: #1f1f1f url(../img/Background.jpg);
+    background-size: cover;
+    display:flex;
+    
+}
+.mini-info{
+    display: flex;
+
+}
+
+.image{
+    text-align: center;
+}
