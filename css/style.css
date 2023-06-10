@@ -2,34 +2,51 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    
 }
-head{
+
+head {
     font-family: 'Overpass', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    font-family: 'Rubik', sans-serif;
 }
-.wrapper{
-    width:82%;
+
+.wrapper {
+    width: 82%;
     margin: 0 auto;
 }
+
 body {
-    background-color: #44653d;
+    background-color: #8bd876;
 }
 
 h1 {
     color: #8bd876;
 }
+
 .concert_start {
     background: #1f1f1f url(../img/Background.jpg);
     background-size: cover;
-    display:flex;
-    
+    display: flex;
+}
+
+.mini-info p {
+    width: 25%;
+    text-align: left;
+    font-size: 14px;
+    line-height: 19px;
+    display: inline-block;
 }
 .mini-info{
-    display: flex;
-
+    padding: 70px 20px;
 }
 
-.image{
+.image {
     text-align: center;
+}
+.data{
+    text-align: right;
+    color:#fff;
+    align-items: center;
+}
+.data h2{
+    color: #8bd876;
 }
