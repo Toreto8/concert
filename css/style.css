@@ -17,10 +17,11 @@ body {
     background: #1f1f1f url(../img/Background.jpg);
     background-size: cover;
     display: flex;
+    padding: 131px 202px;
 }
 
 .mini-info p {
-    width: 90%;
+    width: 83%;
     color: #fff;
     font-size: 14px;
     line-height: 19px;
@@ -44,12 +45,18 @@ body {
     color: #8bd975;
     text-decoration:none;
 }
+.image{
+    padding: 55px;
+}
 
 .data {
     display: flex;
     flex-wrap: wrap;
+    padding: 0px 20px;
     color: #fff;
     align-items: center;
+    align-content: flex-start;
+    
 }
 
 .data h2 {
@@ -60,4 +67,14 @@ body {
 .data1 p, .data2 p
 , .data3 p, .data4 p{
     width: 50%;
+}
+.tour{
+    background-image: url(/img/Background_1.jpg);
+}
+.main{
+    display: flex;
+    
+}
+.main h2{
+    font-size: 79px;
 }
