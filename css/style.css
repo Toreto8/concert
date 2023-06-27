@@ -1,7 +1,13 @@
-
-*{
+* {
     margin: 0;
 }
+
+.wrapper {
+    margin: 0 auto;
+    width: 82%;
+
+}
+
 body {
     font-family: 'Overpass', sans-serif;
 }
@@ -13,7 +19,7 @@ body {
     font-size: 75px;
 }
 
-.concert_start{
+.concert_start {
     background: #1f1f1f url(../img/Background.jpg);
     background-size: cover;
     display: flex;
@@ -32,20 +38,22 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .header-knopka {
     display: flex;
 }
 
-.SCHEDULES a {
+.schedules a {
     color: #1f1f1f;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-.LEARN-MORE a {
+.learn-more a {
     color: #8bd975;
-    text-decoration:none;
+    text-decoration: none;
 }
-.image{
+
+.image {
     padding: 55px;
 }
 
@@ -56,25 +64,73 @@ body {
     color: #fff;
     align-items: center;
     align-content: flex-start;
-    
+
 }
 
 .data h2 {
     color: #8bd876;
 }
-.data1 , .data2
-, .data3 , .data4,
-.data1 p, .data2 p
-, .data3 p, .data4 p{
+
+.data1,
+.data2,
+.data3,
+.data4,
+.data1 p,
+.data2 p,
+.data3 p,
+.data4 p {
     width: 50%;
 }
-.tour{
+
+.tour {
     background-image: url(/img/Background_1.jpg);
+    background-size: cover;
 }
-.main{
+
+.tour .wrapper {
     display: flex;
-    
+    column-gap: 140px;
+    padding: 270px 0 220px 0;
+    align-items: center;
 }
-.main h2{
+
+.main-content {
+    display: inline-block;
+    width: 50%;
+
+}
+
+.main-content h2 {
     font-size: 79px;
+}
+
+.half {
+    width: 50%;
+}
+
+hr {
+    border: 1.5px solid #000;
+    margin: 40px 0;
+}
+.artists{
+background-image: url(/img/Background_3.jpg);
+}
+.artists h2 {                                                    
+    text-align: center;
+    color: #8bd876;
+    font-size: 79px;
+}
+.artists p:first-child{
+    margin: 0 auto;             
+    text-align: center;
+    align-items: center;
+    width: 50%;
+
+}
+.artists p,
+.artists h3{
+    color:#8bd876;
+}
+.artists li{
+    color:#fff;
 }
