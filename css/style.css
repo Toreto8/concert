@@ -46,11 +46,25 @@ body {
 .schedules a {
     color: #1f1f1f;
     text-decoration: none;
+    text-decoration: none;
+    border:3px;
+    border-radius: 13px;
+    text-decoration: none;
+    color:#000;
+    padding: 1.5px;
+    background-color:#8bd975;
+
 }
 
 .learn-more a {
     color: #8bd975;
     text-decoration: none;
+    border: 2px solid #8bd975;
+    border-radius: 13px;
+    text-decoration: none;
+    padding: 1.5px;
+    background-color: #000;
+
 }
 
 .image {
@@ -112,25 +126,85 @@ hr {
     border: 1.5px solid #000;
     margin: 40px 0;
 }
-.artists{
-background-image: url(/img/Background_3.jpg);
+
+.artists {
+    background-image: url(/img/Background_3.jpg);
 }
-.artists h2 {                                                    
+
+.artists h2 {
     text-align: center;
     color: #8bd876;
     font-size: 79px;
 }
-.artists p:first-child{
-    margin: 0 auto;             
+
+.artists p:first-child {
+    margin: 0 auto;
     text-align: center;
     align-items: center;
     width: 50%;
 
 }
+
 .artists p,
-.artists h3{
-    color:#8bd876;
+.artists h3 {
+    color: #8bd876;
 }
-.artists li{
-    color:#fff;
+
+.artists li {
+    color: #fff;
+}
+
+figcaption {
+    display: flex;
+
+}
+
+figcaption h3 {
+    font-size: 30px;
+}
+
+.what-new {
+    background-image: url(/img/Background_4.jpg);
+    display: flex;
+}
+
+.what-new h2 {
+    font-size: 79px;
+}
+
+.buy-ticket {
+    border: 3px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    background-color: #222222;
+}
+
+.learn-more {
+    text-decoration: none;
+    border: 3px solid #000;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #000;
+    padding: 1.5px;
+    background-color: #8bd975;
+}
+
+.fea-art {
+    background-image: url(/img/Background_5.jpg);
+}
+
+.fea-art h2 {
+    font-size: 79px;
+    color: #8bd876;
+}
+
+.fea-art a {
+    color: #212121;
+    border: 3px;
+    border-radius: 13px;
+    text-decoration: none;
+    padding: 1.5px;
+    background-color: #8bd975;
 }
