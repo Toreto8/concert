@@ -7,6 +7,9 @@
     width: 82%;
 
 }
+h2{
+    font-size: 75px;
+}
 
 body {
     font-family: 'Overpass', sans-serif;
@@ -81,7 +84,7 @@ body {
 
 }
 
-.data h2 {
+.data h3 {
     color: #8bd876;
 }
 
@@ -166,6 +169,7 @@ figcaption h3 {
 .what-new {
     background-image: url(/img/Background_4.jpg);
     display: flex;
+    padding: 20px;
 }
 
 .what-new h2 {
@@ -207,4 +211,70 @@ figcaption h3 {
     text-decoration: none;
     padding: 1.5px;
     background-color: #8bd975;
+}
+.our-shows{
+background-image: url(/img/Background_6.png);
+display: flex;
+}
+.for-year,
+.shows{
+    text-align: center;
+}
+.our-shows ul{
+    justify-content: space-between;
+}
+.our-shows li{
+    list-style:none
+}
+.our-shows a{
+        text-decoration: none;
+    border: 3px solid #212121;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #8bd975;
+    padding: 1.5px;
+    background-color: #212121;
+}
+.merch{   
+    background-image: url(/img/Background_7.jpg);
+}
+.merch p{
+    width: 48%;
+    margin: 0 auto;
+}
+.merch h2,
+.merch p{
+    text-align: center;
+}
+.merch a{
+    text-decoration: none;
+    border: 3px solid #000;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #000;
+    padding: 1.5px;
+    background-color: #8bd975;
+}
+.merch figcaption{
+    background-color:#8bd975;
+}
+.footer .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-image: url(/img/Rectangle-8.jpg);
+}
+.the-company p{
+    width: 30%;
+}
+.our-artists p{
+    width: 40%;
+}
+.legal p{
+    width: 56%;
+}
+footer h4{
+    font-size: 17px;
+    padding: 41px 0px;
 }
