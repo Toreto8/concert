@@ -7,7 +7,8 @@
     width: 82%;
 
 }
-h2{
+
+h2 {
     font-size: 75px;
 }
 
@@ -50,12 +51,12 @@ body {
     color: #1f1f1f;
     text-decoration: none;
     text-decoration: none;
-    border:3px;
+    border: 3px;
     border-radius: 13px;
     text-decoration: none;
-    color:#000;
+    color: #000;
     padding: 1.5px;
-    background-color:#8bd975;
+    background-color: #8bd975;
 
 }
 
@@ -76,6 +77,7 @@ body {
 
 .data {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0px 20px;
     color: #fff;
@@ -91,16 +93,12 @@ body {
 .data1,
 .data2,
 .data3,
-.data4,
-.data1 p,
-.data2 p,
-.data3 p,
-.data4 p {
+.data4 {
     width: 50%;
 }
 
 .tour {
-    background-image: url(/img/Background_1.jpg);
+    background-image: url(../img/Background_1.jpg);
     background-size: cover;
 }
 
@@ -131,7 +129,14 @@ hr {
 }
 
 .artists {
-    background-image: url(/img/Background_3.jpg);
+    background-image: url(../img/Background_3.jpg);
+}
+
+.figure-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .artists h2 {
@@ -148,18 +153,36 @@ hr {
 
 }
 
-.artists p,
 .artists h3 {
     color: #8bd876;
 }
 
-.artists li {
+.the-top-artists {
+    text-align: center;
     color: #fff;
+    padding-bottom: 113px;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
 }
 
-figcaption {
-    display: flex;
+.artists li {
+    color: #fff;
+    list-style: none;
+}
 
+.figure-list figure {
+    width: 45%;
+}
+
+.figure-list p {
+    color: #8bd876;
+}
+
+.figure-list figcaption {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 0px 85px 0;
 }
 
 figcaption h3 {
@@ -167,22 +190,38 @@ figcaption h3 {
 }
 
 .what-new {
-    background-image: url(/img/Background_4.jpg);
-    display: flex;
+    background-image: url(../img/Background-4.jpg);
+
     padding: 20px;
+}
+
+.what-new .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.what-new {
+    padding: 180px 0;
 }
 
 .what-new h2 {
     font-size: 79px;
 }
 
+.what-new p {
+    padding-bottom: 30px;
+}
+
 .buy-ticket {
-    border: 3px;
+    border: 3px solid #222;
     border-radius: 13px;
     text-decoration: none;
     color: white;
     padding: 2px;
-    background-color: #222222;
+    background-color: #222;
+    margin-right: 30px;
 }
 
 .learn-more {
@@ -196,9 +235,17 @@ figcaption h3 {
 }
 
 .fea-art {
-    background-image: url(/img/Background_5.jpg);
-}
+    background-image: url(../img/Background_5.jpg);
+    display: flex;
 
+}
+.introducing p{
+    width: 87%;
+}
+.main-in-fea-art {
+    display: flex;
+    align-items: center;
+}
 .fea-art h2 {
     font-size: 79px;
     color: #8bd876;
@@ -212,69 +259,162 @@ figcaption h3 {
     padding: 1.5px;
     background-color: #8bd975;
 }
-.our-shows{
-background-image: url(/img/Background_6.png);
-display: flex;
+
+.our-shows {
+    background-image: url(../img/backroundourshows.jpg);
+    display: flex;
 }
+
+.our-shows h3 {
+    font-size: 35px;
+}
+
+.for-year {
+    padding-top: 100px;
+}
+
+.shows-data ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
 .for-year,
-.shows{
+.shows {
     text-align: center;
 }
-.our-shows ul{
-    justify-content: space-between;
+
+.our-shows li {
+    list-style: none;
+    width: 30%;
 }
-.our-shows li{
-    list-style:none
+
+.our-shows p {
+    width: 110%;
+    padding-bottom: 24px;
 }
-.our-shows a{
-        text-decoration: none;
+
+.our-shows h2 {
+    padding-bottom: 88px;
+}
+
+.our-shows a {
+    display: inline-block;
     border: 3px solid #212121;
     border-radius: 13px;
     text-decoration: none;
     color: #8bd975;
     padding: 1.5px;
     background-color: #212121;
+    margin-bottom: 88px;
 }
-.merch{   
+
+.merch {
     background-image: url(/img/Background_7.jpg);
+    padding-bottom: 126px;
+    display: flex;
+
 }
-.merch p{
-    width: 48%;
+
+.merch figure {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.merch figcaption {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 55px 24px;
+    width: 100%;
+}
+
+.merch-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 112px;
+}
+
+.merch-img img {
+    width: 100%;
+}
+
+.merch h3 {
+    font-size: 35px;
+
+}
+
+.merch h2 {
+    color: #8bd975;
+}
+
+.merch p {
+    width: 55%;
     margin: 0 auto;
+    color: #fff;
+    padding-bottom: 67px;
 }
+
 .merch h2,
-.merch p{
+.merch p {
     text-align: center;
 }
-.merch a{
+
+.merch a {
     text-decoration: none;
-    border: 3px solid #000;
+    border: 3px solid #212121;
     border-radius: 13px;
     text-decoration: none;
-    color: #000;
+    color: #8bd876;
     padding: 1.5px;
-    background-color: #8bd975;
+    background-color: #212121;
 }
-.merch figcaption{
-    background-color:#8bd975;
+
+.merch-img figcaption {
+    background: #8bd975;
 }
-.footer .wrapper{
+
+.footer .wrapper {
     display: flex;
     flex-wrap: wrap;
 }
-.footer{
+
+.footer {
     background-image: url(/img/Rectangle-8.jpg);
 }
-.the-company p{
+
+.the-company h3 {
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+.the-company p {
     width: 30%;
 }
-.our-artists p{
+
+.our-artists h3 {
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+.our-artists p {
     width: 40%;
 }
-.legal p{
+
+.legal h3 {
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+.legal p {
     width: 56%;
 }
-footer h4{
+
+footer h4 {
     font-size: 17px;
     padding: 41px 0px;
 }
