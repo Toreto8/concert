@@ -26,15 +26,55 @@ body {
 .concert_start {
     background: #1f1f1f url(../img/Background.jpg);
     background-size: cover;
+    padding: 220px 0px 160px 0;
+}
+
+.concert_start .wrapper {
     display: flex;
-    padding: 131px 202px;
 }
 
 .mini-info p {
-    width: 83%;
     color: #fff;
     font-size: 14px;
     line-height: 19px;
+    padding-bottom: 30px;
+}
+
+.data p {
+    width: 80%;
+}
+
+.data h3 {
+    padding: 30px 0px;
+    font-size: 35px;
+}
+.data1,
+.data2{
+    position: relative;
+}
+.data1:before,
+.data2:before {
+    content: "";
+    position: absolute;
+    border: 3px solid #8bd976;
+    width: 105px;
+    height: 15px;
+    border-radius: 20px;
+    top: -40px;
+}
+.data3,
+.data4{
+    position: relative;
+}
+.data3:before,
+.data4:before{
+    content: "";
+    position: absolute;
+    border: 3px solid #8bd976;
+    width: 105px;
+    height: 15px;
+    border-radius: 20px;
+    bottom: -60px;
 }
 
 .mini-info {
@@ -50,24 +90,27 @@ body {
 .schedules a {
     color: #1f1f1f;
     text-decoration: none;
-    text-decoration: none;
+    
     border: 3px;
     border-radius: 13px;
     text-decoration: none;
     color: #000;
     padding: 1.5px;
     background-color: #8bd975;
+    border-radius: 17px;
+    padding: 3px 8px;
 
 }
 
-.learn-more a {
+ .learn-more a {
     color: #8bd975;
     text-decoration: none;
     border: 2px solid #8bd975;
-    border-radius: 13px;
+    border-radius: 17px;
+    padding: 3px 8px;
     text-decoration: none;
-    padding: 1.5px;
-    background-color: #000;
+    background-color: transparent;
+    margin: 15px;
 
 }
 
@@ -79,10 +122,11 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0px 20px;
+
     color: #fff;
     align-items: center;
     align-content: flex-start;
+    align-self: center;
 
 }
 
@@ -96,9 +140,8 @@ body {
 .data4 {
     width: 50%;
 }
-
 .tour {
-    background-image: url(../img/Background_1.jpg);
+    background-image: url(../img/background_first.jpg);
     background-size: cover;
 }
 
@@ -122,14 +165,16 @@ body {
 .half {
     width: 50%;
 }
-
+.half h2{
+    font-size: 35px;
+}
 hr {
     border: 1.5px solid #000;
     margin: 40px 0;
 }
 
 .artists {
-    background-image: url(../img/Background_3.jpg);
+    background-image: url(../img/background_three.jpg);
 }
 
 .figure-list {
@@ -143,6 +188,7 @@ hr {
     text-align: center;
     color: #8bd876;
     font-size: 79px;
+    padding-top: 177px;
 }
 
 .artists p:first-child {
@@ -190,7 +236,7 @@ figcaption h3 {
 }
 
 .what-new {
-    background-image: url(../img/Background-4.jpg);
+    background-image: url(../img/background_four.jpg);
 
     padding: 20px;
 }
@@ -222,30 +268,71 @@ figcaption h3 {
     padding: 2px;
     background-color: #222;
     margin-right: 30px;
+    border-radius: 17px;
+    padding: 3px 8px;
 }
 
-.learn-more {
+.learn-more2 {
     text-decoration: none;
     border: 3px solid #000;
     border-radius: 13px;
     text-decoration: none;
     color: #000;
-    padding: 1.5px;
     background-color: #8bd975;
+    border-radius: 17px;
+    padding: 3px 8px;
 }
 
 .fea-art {
-    background-image: url(../img/Background_5.jpg);
+    background-image: url(../img/background_five.jpg);
     display: flex;
 
 }
-.introducing p{
-    width: 87%;
+
+.p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 68px;
 }
+
+.p p {
+    width: 30%;
+    color: #fff;
+    text-align: right;
+    margin: 10px;
+}
+
+.introducing p {
+    width: 87%;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
 .main-in-fea-art {
     display: flex;
     align-items: center;
 }
+
+.time {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35%;
+}
+
+.time time {
+    color: #8bd876;
+    font-size: 35px;
+    margin: 20px;
+}
+
+.time p {
+    color: #fff;
+    padding-bottom: 116px;
+}
+
 .fea-art h2 {
     font-size: 79px;
     color: #8bd876;
@@ -258,6 +345,8 @@ figcaption h3 {
     text-decoration: none;
     padding: 1.5px;
     background-color: #8bd975;
+    border-radius: 17px;
+    padding: 3px 8px;
 }
 
 .our-shows {
@@ -305,15 +394,17 @@ figcaption h3 {
     border-radius: 13px;
     text-decoration: none;
     color: #8bd975;
-    padding: 1.5px;
     background-color: #212121;
     margin-bottom: 88px;
+    border-radius: 17px;
+    padding: 3px 8px;
 }
 
 .merch {
-    background-image: url(/img/Background_7.jpg);
+    background-image: url(/img/background_seven.jpg);
     padding-bottom: 126px;
     display: flex;
+    padding-top: 115px;
 
 }
 
@@ -370,8 +461,9 @@ figcaption h3 {
     border-radius: 13px;
     text-decoration: none;
     color: #8bd876;
-    padding: 1.5px;
     background-color: #212121;
+    border-radius: 17px;
+    padding: 3px 8px;
 }
 
 .merch-img figcaption {
@@ -384,7 +476,7 @@ figcaption h3 {
 }
 
 .footer {
-    background-image: url(/img/Rectangle-8.jpg);
+    background-image: url(/img/rectangle_eight.jpg);
 }
 
 .the-company h3 {
