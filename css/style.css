@@ -14,6 +14,7 @@ h2 {
 
 body {
     font-family: 'Overpass', sans-serif;
+    overflow-x: hidden;
 }
 
 .mini-info h1 {
@@ -48,10 +49,12 @@ body {
     padding: 30px 0px;
     font-size: 35px;
 }
+
 .data1,
-.data2{
+.data2 {
     position: relative;
 }
+
 .data1:before,
 .data2:before {
     content: "";
@@ -62,12 +65,14 @@ body {
     border-radius: 20px;
     top: -40px;
 }
+
 .data3,
-.data4{
+.data4 {
     position: relative;
 }
+
 .data3:before,
-.data4:before{
+.data4:before {
     content: "";
     position: absolute;
     border: 3px solid #8bd976;
@@ -87,10 +92,9 @@ body {
     display: flex;
 }
 
-.schedules a {
+.schedules {
     color: #1f1f1f;
     text-decoration: none;
-    
     border: 3px;
     border-radius: 13px;
     text-decoration: none;
@@ -99,10 +103,9 @@ body {
     background-color: #8bd975;
     border-radius: 17px;
     padding: 3px 8px;
-
 }
 
- .learn-more a {
+.learn-more {
     color: #8bd975;
     text-decoration: none;
     border: 2px solid #8bd975;
@@ -110,7 +113,7 @@ body {
     padding: 3px 8px;
     text-decoration: none;
     background-color: transparent;
-    margin: 15px;
+    margin-top: 15px;
 
 }
 
@@ -140,6 +143,7 @@ body {
 .data4 {
     width: 50%;
 }
+
 .tour {
     background-image: url(../img/background_first.jpg);
     background-size: cover;
@@ -165,9 +169,11 @@ body {
 .half {
     width: 50%;
 }
-.half h2{
+
+.half h2 {
     font-size: 35px;
 }
+
 hr {
     border: 1.5px solid #000;
     margin: 40px 0;
@@ -219,6 +225,10 @@ hr {
 
 .figure-list figure {
     width: 45%;
+}
+
+.figure-list figure img {
+    width: 100%;
 }
 
 .figure-list p {
@@ -380,7 +390,6 @@ figcaption h3 {
 }
 
 .our-shows p {
-    width: 110%;
     padding-bottom: 24px;
 }
 
@@ -472,6 +481,7 @@ figcaption h3 {
 
 .footer .wrapper {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -479,13 +489,15 @@ figcaption h3 {
     background-image: url(/img/rectangle_eight.jpg);
 }
 
+.the-company,
+.our-artists,
+.legal {
+    width: 30%;
+}
+
 .the-company h3 {
     padding-top: 40px;
     font-size: 35px;
-}
-
-.the-company p {
-    width: 30%;
 }
 
 .our-artists h3 {
@@ -493,20 +505,92 @@ figcaption h3 {
     font-size: 35px;
 }
 
-.our-artists p {
-    width: 40%;
-}
-
 .legal h3 {
     font-size: 35px;
     padding-top: 40px;
 }
 
-.legal p {
-    width: 56%;
-}
-
 footer h4 {
     font-size: 17px;
     padding: 41px 0px;
+
+}
+
+.footer li {
+    list-style: none;
+}
+.footer ul{
+    padding: 0;
+}
+
+@media screen and (max-width:1360px) {
+    .concert_start .image {
+        padding: 30px;
+
+    }
+
+    .concert_start h1 {
+        font-size: 50px;
+    }
+
+    .header-knopka {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .mini-info {
+        padding: 70px 0px;
+    }
+}
+
+@media screen and (max-width:1240px) {
+
+    .the-company,
+    .our-artists,
+    .the-company {
+        width: 35%;
+
+    }
+
+    .data,
+    .mini-info,
+    .image {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .concert_start {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:1180px) {
+
+    .schedules,
+    .learn-more {
+        padding: 5px 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .merch figcaption h3 {
+        font-size: 25px;
+    }
+
+    .the-company,
+    .our-artists,
+    .the-company {
+        width: 30%;
+
+    }
+    .fea-art h2{
+        font-size: 65px;
+    }
+    .main-content h2{
+        font-size: 65px;
+    }
 }
