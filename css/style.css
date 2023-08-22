@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+html {
+    font-size: 1px;
+}
+
 .wrapper {
     margin: 0 auto;
     width: 82%;
@@ -9,25 +13,27 @@
 }
 
 h2 {
-    font-size: 75px;
+    font-size: 75rem;
 }
 
 body {
     font-family: 'Overpass', sans-serif;
     overflow-x: hidden;
+    font-size: 14rem;
 }
 
 .mini-info h1 {
     color: #8bd876;
     margin: 0;
     font-weight: 400;
-    font-size: 75px;
+    font-size: 75rem;
+    text-align: center;
 }
 
 .concert_start {
     background: #1f1f1f url(../img/Background.jpg);
     background-size: cover;
-    padding: 220px 0px 160px 0;
+    padding: 100px 0px 160px 0;
 }
 
 .concert_start .wrapper {
@@ -36,7 +42,7 @@ body {
 
 .mini-info p {
     color: #fff;
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 19px;
     padding-bottom: 30px;
 }
@@ -47,16 +53,14 @@ body {
 
 .data h3 {
     padding: 30px 0px;
-    font-size: 35px;
+    font-size: 35rem;
 }
 
-.data1,
-.data2 {
+.data-item-top {
     position: relative;
 }
 
-.data1:before,
-.data2:before {
+.data-item-top:before {
     content: "";
     position: absolute;
     border: 3px solid #8bd976;
@@ -66,13 +70,11 @@ body {
     top: -40px;
 }
 
-.data3,
-.data4 {
+.data-item-bottom {
     position: relative;
 }
 
-.data3:before,
-.data4:before {
+.data-item-bottom:before {
     content: "";
     position: absolute;
     border: 3px solid #8bd976;
@@ -137,10 +139,8 @@ body {
     color: #8bd876;
 }
 
-.data1,
-.data2,
-.data3,
-.data4 {
+.data-item-bottom,
+.data-item-top {
     width: 50%;
 }
 
@@ -163,7 +163,7 @@ body {
 }
 
 .main-content h2 {
-    font-size: 79px;
+    font-size: 79rem;
 }
 
 .half {
@@ -171,7 +171,7 @@ body {
 }
 
 .half h2 {
-    font-size: 35px;
+    font-size: 35rem;
 }
 
 hr {
@@ -193,7 +193,7 @@ hr {
 .artists h2 {
     text-align: center;
     color: #8bd876;
-    font-size: 79px;
+    font-size: 79rem;
     padding-top: 177px;
 }
 
@@ -242,7 +242,7 @@ hr {
 }
 
 figcaption h3 {
-    font-size: 30px;
+    font-size: 25rem;
 }
 
 .what-new {
@@ -263,11 +263,16 @@ figcaption h3 {
 }
 
 .what-new h2 {
-    font-size: 79px;
+    font-size: 79rem;
 }
 
 .what-new p {
     padding-bottom: 30px;
+}
+
+.img-in-what_new {
+    width: 100%;
+    display: inline-block;
 }
 
 .buy-ticket {
@@ -334,7 +339,7 @@ figcaption h3 {
 
 .time time {
     color: #8bd876;
-    font-size: 35px;
+    font-size: 35rem;
     margin: 20px;
 }
 
@@ -344,7 +349,7 @@ figcaption h3 {
 }
 
 .fea-art h2 {
-    font-size: 79px;
+    font-size: 79rem;
     color: #8bd876;
 }
 
@@ -365,7 +370,7 @@ figcaption h3 {
 }
 
 .our-shows h3 {
-    font-size: 35px;
+    font-size: 35rem;
 }
 
 .for-year {
@@ -444,7 +449,7 @@ figcaption h3 {
 }
 
 .merch h3 {
-    font-size: 35px;
+    font-size: 35rem;
 
 }
 
@@ -497,21 +502,21 @@ figcaption h3 {
 
 .the-company h3 {
     padding-top: 40px;
-    font-size: 35px;
+    font-size: 35rem;
 }
 
 .our-artists h3 {
     padding-top: 40px;
-    font-size: 35px;
+    font-size: 35rem;
 }
 
 .legal h3 {
-    font-size: 35px;
-    padding-top: 40px;
+    font-size: 35rem;
+    padding-top: 40rem;
 }
 
 footer h4 {
-    font-size: 17px;
+    font-size: 17rem;
     padding: 41px 0px;
 
 }
@@ -519,7 +524,8 @@ footer h4 {
 .footer li {
     list-style: none;
 }
-.footer ul{
+
+.footer ul {
     padding: 0;
 }
 
@@ -530,7 +536,7 @@ footer h4 {
     }
 
     .concert_start h1 {
-        font-size: 50px;
+        font-size: 50rem;
     }
 
     .header-knopka {
@@ -578,19 +584,87 @@ footer h4 {
     }
 
     .merch figcaption h3 {
-        font-size: 25px;
+        font-size: 25rem;
     }
 
     .the-company,
     .our-artists,
-    .the-company {
+    .legal {
         width: 30%;
 
     }
-    .fea-art h2{
-        font-size: 65px;
+
+    html {
+        font-size: 0.9px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .img-in-what_new {
+        width: 60%;
+    }
+
+    .img-in-what_new img {
+        width: 100%;
+    }
+
+    .whats-new {
+        width: 40%;
+    }
+
+    .concert_start .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .mini-info,
+    .image {
+        width: 45%;
+    }
+
+    .image img {
+        max-height: 400px;
+    }
+
+    .data {
+        width: 100%;
+    }
+
+    .data-item-bottom:before,
+    .data-item-top:before {
+        display: none;
+    }
+
+    .data-item-bottom,
+    .data-item-top {
+        width: 25%;
+    }
+
+    .sing-boy-2{
+       width: 40%;
+    }
+    .introducing{
+        width: 60%;
+    }
+    .sing-boy-2 img{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:915px)
+{
+    figure ul{
+        padding: 0;
+    }
+    .the-company h3{
+        font-size: 30rem;
     }
     .main-content h2{
-        font-size: 65px;
+        font-size: 55rem;
+    }
+    .merch figcaption h3{
+        font-size: 20rem;
+    }
+    .merch figcaption{
+        padding: 45px 24px;
     }
 }
