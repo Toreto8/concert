@@ -31,7 +31,7 @@ body {
 }
 
 .concert_start {
-    background: #1f1f1f url(../img/Background.jpg);
+    background: #1f1f1f url(../img/background.jpg);
     background-size: cover;
     padding: 100px 0px 160px 0;
 }
@@ -639,32 +639,237 @@ footer h4 {
         width: 25%;
     }
 
-    .sing-boy-2{
-       width: 40%;
+    .sing-boy-2 {
+        width: 40%;
     }
-    .introducing{
+
+    .introducing {
         width: 60%;
     }
-    .sing-boy-2 img{
+
+    .sing-boy-2 img {
         width: 100%;
     }
-    
+
 }
-@media screen and (max-width:915px)
-{
-    figure ul{
+
+@media screen and (max-width:915px) {
+    figure ul {
         padding: 0;
     }
-    .the-company h3{
+
+    .the-company h3 {
         font-size: 30rem;
     }
-    .main-content h2{
+
+    .main-content h2 {
         font-size: 55rem;
     }
-    .merch figcaption h3{
+
+    .merch figcaption h3 {
         font-size: 20rem;
     }
-    .merch figcaption{
+
+    .merch figcaption {
         padding: 45px 24px;
+    }
+
+    .what-new h2 {
+        font-size: 60rem;
+    }
+
+    .learn-more2,
+    .buy-ticket {
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .buy-ticket {
+        margin-bottom: 20px;
+    }
+
+    .figure-list figcaption {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px 45px 0;
+        text-align: center;
+    }
+
+    .figure-list figcaption ul {
+        padding-top: 10px;
+    }
+
+    .fea-art h2 {
+        font-size: 65rem;
+    }
+
+    .our-artists h3 {
+        font-size: 30rem;
+    }
+}
+
+@media screen and (max-width:786px) {
+
+    .merch-img figcaption {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .merch-img h3,
+    .merch-img a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .concert_start .wrapper {
+        justify-content: center;
+    }
+
+    .concert_start .image {
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .the-company h3 {
+        font-size: 25rem;
+    }
+
+    .artists h2 {
+        font-size: 70rem;
+    }
+
+    .half h2 {
+        font-size: 25rem;
+    }
+
+    .main-content h2 {
+        font-size: 55rem;
+    }
+
+    .for-year {
+        padding-top: 150px;
+    }
+
+    .fea-art h2 {
+        font-size: 55rem;
+    }
+
+    .tour .wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-content {
+        padding-bottom: 50px;
+    }
+    .our-shows h3{
+        font-size: 30rem;
+    }
+    .our-shows h2{
+        font-size: 70rem;
+    }
+    .our-shows{
+        background-size: 200%;
+        background-position: center;
+    }
+    .shows-data li{
+        width: 45%;
+    }
+    .time{
+        width: 100%;
+    }
+    .p{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .introducing{
+        margin-bottom: 40px;
+    }
+    .what-new .wrapper{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .img-in-what_new{
+        margin: 50px;
+        text-align: center;
+    }
+    .main-in-fea-art{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .introducing{
+        width: 100%;
+    }
+    .sing-boy-2{
+        width: 60%;
+    }
+    .figure-list{
+        flex-wrap: wrap;
+    }
+    .figure-list figure{
+        width: 100%;
+    }
+    .the-top-artists{
+        width: 100%;
+    }
+    .artists{
+        background-position: center;
+    }
+}
+@media screen and (max-width:500px){
+    .data{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .data-item-top{
+        width: 50%;
+    }
+    .data-item-bottom{
+        width: 50%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .concert_start{
+        background-position: center;
+    }
+    .main-content h2{
+        font-size: 45rem;
+    }
+    .merch figcaption h3,
+    .merch figcaption{
+        font-size: 15rem;
+    }
+    .footer .wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .legal,
+    .our-artists,
+    .the-company{
+        width: 100%;
+    }
+    .merch h2{
+        font-size: 55rem;
+    }
+    .our-shows h2{
+        font-size: 50rem;
+    }
+    .main-content h2{
+        font-size: 40rem;
+    }
+    .main-content h2{
+        font-size: 33rem;
+    }
+    .introducing{
+        text-align: center; 
+    }
+    .merch-img figcaption{
+        padding: 30px 15px;
     }
 }
