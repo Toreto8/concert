@@ -182,6 +182,7 @@ hr {
 
 .artists {
     background-image: url(../img/background_three.jpg);
+    background-size: cover;
 }
 
 .figure-list {
@@ -248,7 +249,7 @@ figcaption h3 {
 
 .what-new {
     background-image: url(../img/background_four.jpg);
-
+background-size: cover;
     padding: 20px;
 }
 
@@ -301,6 +302,7 @@ figcaption h3 {
 
 .fea-art {
     background-image: url(../img/background_five.jpg);
+    background-size: cover;
     display: flex;
 
 }
@@ -325,7 +327,9 @@ figcaption h3 {
     padding-bottom: 30px;
     color: #fff;
 }
-
+.introducing a{
+    font-size: 20rem;
+}
 .main-in-fea-art {
     display: flex;
     align-items: center;
@@ -367,6 +371,7 @@ figcaption h3 {
 
 .our-shows {
     background-image: url(../img/backroundourshows.jpg);
+    background-size: cover;
     display: flex;
 }
 
@@ -417,6 +422,7 @@ figcaption h3 {
 
 .merch {
     background-image: url(../img/background_seven.jpg);
+    background-size: cover;
     padding-bottom: 126px;
     display: flex;
     padding-top: 115px;
@@ -493,6 +499,7 @@ figcaption h3 {
 
 .footer {
     background-image: url(../img/rectangle_eight.jpg);
+    background-size: cover;
 }
 
 .the-company,
@@ -529,7 +536,9 @@ footer h4 {
 .footer ul {
     padding: 0;
 }
-
+.merch a{
+    font-size: 20rem;
+}
 @media screen and (max-width:1360px) {
     .concert_start .image {
         padding: 30px;
@@ -597,6 +606,12 @@ footer h4 {
 
     html {
         font-size: 0.9px;
+    }
+    .merch a{
+        font-size: 19rem;
+    }
+    .introducing a{
+        font-size: 17rem;
     }
 }
 
@@ -717,7 +732,9 @@ footer h4 {
         width: 100%;
         flex-wrap: wrap;
     }
-
+    .introducing a{
+        font-size: 17rem;
+    }
     .merch-img h3,
     .merch-img a {
         width: 100%;
@@ -727,7 +744,9 @@ footer h4 {
     .concert_start .wrapper {
         justify-content: center;
     }
-
+    .merch a {
+        font-size: 18rem;
+    }
     .concert_start .image {
         padding: 0;
         width: 100%;
@@ -822,6 +841,9 @@ footer h4 {
     }
 }
 @media screen and (max-width:500px){
+    .merch a{
+        font-size: 15rem;
+    }
     .data{
         flex-wrap: wrap;
         justify-content: center;
