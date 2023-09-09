@@ -105,6 +105,7 @@ body {
     background-color: #8bd975;
     border-radius: 17px;
     padding: 3px 8px;
+    margin-top: 15px;
 }
 
 .learn-more {
@@ -856,6 +857,9 @@ footer h4 {
     }
     .merch h2{
         font-size: 55rem;
+    }
+    .merch{
+        background-position: center;
     }
     .our-shows h2{
         font-size: 50rem;
